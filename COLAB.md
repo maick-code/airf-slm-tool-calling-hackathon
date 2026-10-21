@@ -15,7 +15,9 @@ L’entraînement **ne tourne pas dans ce sandbox** (pas de GPU). Il se fait sur
 4. Colab → 🔑 Secrets → `HF_TOKEN` = ton token (`hf_...`), notebook **autorisé** à y accéder
 5. Relance **Runtime → Restart and run all**
 
-Sans licence, le notebook bascule tout seul sur **`Qwen/Qwen2.5-1.5B-Instruct`** (ouvert, ≤ 4B).
+Le notebook n’utilise **que Gemma** (`google/gemma-3-270m-it` par défaut). Un 403 veut dire : licence non acceptée **ou** secret non branché au notebook.
+
+Vérifie aussi l’interrupteur **Notebook access** à droite du secret `HF_TOKEN`.
 
 ## 2. Lancer
 
@@ -42,7 +44,7 @@ Baseline officiel : Gemma 3 270M × 15k × 1 epoch = **88.35 %**. FunctionGemma 
 
 ```bash
 python generate_submission.py --rules-only --push
-python generate_submission.py --adapter ./adapter --model Qwen/Qwen2.5-1.5B-Instruct --push
+python generate_submission.py --adapter ./adapter --model google/gemma-3-270m-it --push
 ```
 
 Upload **`submission.zip`** sur [Codabench Participate](https://www.codabench.org/competitions/18354/#/participate-tab).
