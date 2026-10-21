@@ -15,6 +15,10 @@ Hugging Face refuse le téléchargement tant que **le compte du token** n’a pa
 
 Le notebook affiche `HF account: <nom>`. C’est **ce** nom qui doit avoir accepté Gemma.
 
-## T4
+## 2e run (leaderboard 88.9 % → viser 92 %+)
 
-Après un OOM : **Disconnect and delete runtime**. Uniquement `google/gemma-3-270m-it` sur T4.
+`train_colab.ipynb` : **FunctionGemma 270M**, **1 epoch**, T4.
+
+Accepte aussi https://huggingface.co/google/functiongemma-270m-it puis Runtime → Restart → Run all.
+
+Ne pas réentraîner 2 epochs Gemma 270M (overfit).
