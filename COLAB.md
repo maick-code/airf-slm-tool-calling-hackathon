@@ -15,9 +15,9 @@ Hugging Face refuse le téléchargement tant que **le compte du token** n’a pa
 
 Le notebook affiche `HF account: <nom>`. C’est **ce** nom qui doit avoir accepté Gemma.
 
-## 2e run (leaderboard 88.9 % → viser 92 %+)
+## 3e run (T4) — synthétique + FunctionGemma 1 epoch
 
-`train_colab.ipynb` : **FunctionGemma 270M**, **1 epoch**, T4.
+Les 15k seuls plafonnent à ~89 % dev. Le notebook mélange **15k officiels + 9k synthétiques** (autres noms / lieux / phrases), FunctionGemma, **1 epoch**.
 
 Accepte aussi https://huggingface.co/google/functiongemma-270m-it puis Runtime → Restart → Run all.
 
