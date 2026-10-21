@@ -21,7 +21,7 @@ Vérifie aussi l’interrupteur **Notebook access** à droite du secret `HF_TOKE
 
 ## 2. Lancer
 
-Ouvre `train_colab.ipynb` dans Colab (GPU T4).
+Ouvre `train_colab.ipynb` dans Colab (**GPU T4**). Après un OOM : **Runtime → Disconnect and delete runtime**, puis Run all. Ne charge pas Gemma 1B/4B sur T4.
 
 Le notebook :
 
