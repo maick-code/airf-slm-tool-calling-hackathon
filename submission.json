@@ -39,7 +39,7 @@
  "dev-00723": {
   "tool": "get_weather",
   "parameters": {
-   "location": null,
+   "location": "Nyxar",
    "date": null
   }
  },
@@ -85,7 +85,7 @@
    "recipient": "Johan Steyn",
    "amount": 200,
    "currency": "EUR",
-   "provider": null
+   "provider": "Johan Steyn"
   }
  },
  "dev-01784": {
@@ -104,7 +104,7 @@
   }
  },
  "dev-00758": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0781649734",
    "amount": 3000,
@@ -114,7 +114,7 @@
  "dev-01828": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Mugenzi",
+   "recipient": "Mugenzi MoMo",
    "amount": 20000,
    "currency": null,
    "provider": "MoMo"
@@ -242,16 +242,24 @@
  "dev-01732": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Tangataanga",
+   "location": "Tanga",
    "date": "saturday"
   }
  },
- "dev-01780": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Thika"
+ "dev-01780": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Thika"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Thika"
+   }
   }
- },
+ ],
  "dev-00065": {
   "tool": "get_crop_price",
   "parameters": {
@@ -385,7 +393,7 @@
  "dev-00845": {
   "tool": "get_weather",
   "parameters": {
-   "location": null,
+   "location": "Tnx",
    "date": "thursday"
   }
  },
@@ -436,7 +444,7 @@
  "dev-00398": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Tangaya",
+   "location": "Tanga",
    "date": "thursday"
   }
  },
@@ -519,7 +527,7 @@
   }
  },
  "dev-01890": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "+27768288906",
    "amount": 299,
@@ -536,8 +544,8 @@
  "dev-00271": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Tororo",
-   "date": null
+   "location": "Toro",
+   "date": "tomorrow"
   }
  },
  "dev-01632": {
@@ -584,7 +592,7 @@
  "dev-01673": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Mah Mahama",
+   "recipient": " Mahama",
    "amount": 100,
    "currency": "GBP",
    "provider": "MTN MoMo"
@@ -593,8 +601,8 @@
  "dev-01817": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "18644084065",
-   "amount": 200,
+   "meter_number": "200",
+   "amount": 1864,
    "currency": "ZAR"
   }
  },
@@ -646,27 +654,18 @@
  "dev-00569": {
   "tool": "send_money",
   "parameters": {
-   "recipient": null,
+   "recipient": "Ksh",
    "amount": 20000,
    "currency": "KES",
    "provider": "Jeptoo"
   }
  },
- "dev-00738": [
-  {
-   "tool": "report_outage",
-   "parameters": {
-    "location": "Iggogo"
-   }
-  },
-  {
-   "tool": "get_weather",
-   "parameters": {
-    "location": "Iggogo",
-    "date": "tomorrow"
-   }
+ "dev-00738": {
+  "tool": "report_outage",
+  "parameters": {
+   "location": "Igango"
   }
- ],
+ },
  "dev-01130": {
   "tool": "report_outage",
   "parameters": {
@@ -682,11 +681,10 @@
   }
  },
  "dev-01481": {
-  "tool": "buy_airtime",
+  "tool": "get_weather",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "location": "Ogbonbo",
+   "date": "today"
   }
  },
  "dev-01933": {
@@ -698,11 +696,9 @@
   }
  },
  "dev-01122": {
-  "tool": "buy_airtime",
+  "tool": "check_balance",
   "parameters": {
-   "phone": "0787160641",
-   "amount": 10,
-   "network": "MTN"
+   "provider": "MTN"
   }
  },
  "dev-01649": {
@@ -729,7 +725,7 @@
   "tool": "buy_data",
   "parameters": {
    "phone": "0549352361",
-   "amount": 50,
+   "amount": 3,
    "network": "MTN"
   }
  },
@@ -751,7 +747,7 @@
  "dev-00122": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Anyesi M-Pesa",
+   "recipient": "Anyesi",
    "amount": 200000,
    "currency": null,
    "provider": "M-Pesa"
@@ -769,8 +765,8 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": null,
-   "from_currency": "KES",
-   "to_currency": "TZS"
+   "from_currency": "TZS",
+   "to_currency": "NGN"
   }
  },
  "dev-01812": [
@@ -877,8 +873,8 @@
  "dev-01308": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "86136341801",
-   "amount": 1000,
+   "meter_number": "186136341801",
+   "amount": 86136341801,
    "currency": "ZAR"
   }
  },
@@ -999,7 +995,7 @@
   }
  },
  "dev-00242": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "+2348175420310",
    "amount": 3000,
@@ -1007,11 +1003,8 @@
   }
  },
  "dev-00553": {
-  "tool": "send_money",
+  "tool": "check_balance",
   "parameters": {
-   "recipient": null,
-   "amount": 10000,
-   "currency": null,
    "provider": "Airtel Money"
   }
  },
@@ -1032,14 +1025,14 @@
  "dev-00880": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Igor",
+   "location": "Igango",
    "date": "today"
   }
  },
  "dev-01267": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Tororo",
+   "location": "Toro",
    "date": null
   }
  },
@@ -1070,10 +1063,10 @@
  "dev-00635": {
   "tool": "send_money",
   "parameters": {
-   "recipient": null,
+   "recipient": "Akua MoMo",
    "amount": 200,
-   "currency": "Akwaa",
-   "provider": "MoMo"
+   "currency": null,
+   "provider": null
   }
  },
  "dev-00946": {
@@ -1084,7 +1077,7 @@
   }
  },
  "dev-01440": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0784357553",
    "amount": 25000,
@@ -1131,7 +1124,7 @@
   }
  },
  "dev-00335": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0772488241",
    "amount": null,
@@ -1213,8 +1206,8 @@
  "dev-00672": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "17434274923",
-   "amount": 300,
+   "meter_number": "300",
+   "amount": 17434274923,
    "currency": "ETB"
   }
  },
@@ -1244,11 +1237,10 @@
   }
  },
  "dev-01816": {
-  "tool": "buy_umbrella",
+  "tool": "get_weather",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "location": "Ngoma",
+   "date": "sunday"
   }
  },
  "dev-00346": {
@@ -1289,8 +1281,8 @@
  "dev-01176": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "87008317587",
-   "amount": 30000,
+   "meter_number": "30000",
+   "amount": 87008317587,
    "currency": "RWF"
   }
  },
@@ -1321,7 +1313,7 @@
   "parameters": {
    "amount": 5000,
    "from_currency": "ZAR",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-01623": {
@@ -1332,11 +1324,12 @@
   }
  },
  "dev-00125": {
-  "tool": "buy_airtime",
+  "tool": "send_money",
   "parameters": {
-   "phone": "0952478671",
+   "recipient": "Shani",
    "amount": 50,
-   "network": "Zamtel"
+   "currency": null,
+   "provider": "Zamtel"
   }
  },
  "dev-00272": {
@@ -1396,7 +1389,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "potatoes",
-   "location": " Tshwane"
+   "location": "Tshwane"
   }
  },
  "dev-00728": {
@@ -1404,7 +1397,7 @@
   "parameters": {
    "amount": 1000000,
    "from_currency": "UGX",
-   "to_currency": "NGN"
+   "to_currency": "TZS"
   }
  },
  "dev-00788": {
@@ -1481,12 +1474,11 @@
   }
  },
  "dev-00694": {
-  "tool": "send_money",
+  "tool": "convert_currency",
   "parameters": {
-   "recipient": "Zanele",
    "amount": 150,
-   "currency": "ZAR",
-   "provider": null
+   "from_currency": "ZAR",
+   "to_currency": null
   }
  },
  "dev-01109": {
@@ -1516,8 +1508,8 @@
    "tool": "convert_currency",
    "parameters": {
     "amount": null,
-    "from_currency": "ETB",
-    "to_currency": "M-Pesa"
+    "from_currency": "M-Pesa",
+    "to_currency": null
    }
   },
   {
@@ -1526,7 +1518,7 @@
     "recipient": "Liya",
     "amount": 300,
     "currency": "ETB",
-    "provider": "M-Pesa"
+    "provider": "Liya"
    }
   }
  ],
@@ -1569,7 +1561,7 @@
  "dev-01485": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Lauro",
+   "location": "Laroo",
    "date": null
   }
  },
@@ -1679,7 +1671,7 @@
  "dev-00705": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Anyesi",
+   "recipient": "Anyesi Airtel Money",
    "amount": 500000,
    "currency": null,
    "provider": "Airtel Money"
@@ -1714,7 +1706,7 @@
   "parameters": {
    "amount": 5000,
    "from_currency": "ZMW",
-   "to_currency": "USD"
+   "to_currency": null
   }
  },
  "dev-01872": {
@@ -1723,16 +1715,15 @@
    "recipient": "Bereket",
    "amount": 10000,
    "currency": "ETB",
-   "provider": "telebirr"
+   "provider": "Telebirr"
   }
  },
  "dev-01974": {
-  "tool": "send_money",
+  "tool": "convert_currency",
   "parameters": {
-   "recipient": "Thosa",
    "amount": 200,
-   "currency": "ZAR",
-   "provider": null
+   "from_currency": "ZAR",
+   "to_currency": null
   }
  },
  "dev-00417": {
@@ -1786,11 +1777,10 @@
   }
  },
  "dev-00752": {
-  "tool": "buy_umbrella",
+  "tool": "get_weather",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "location": "Kakamega",
+   "date": "14 October"
   }
  },
  "dev-01305": {
@@ -1842,7 +1832,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "tomatoes",
-   "location": null
+   "location": "Tnx"
   }
  },
  "dev-01451": {
@@ -1862,7 +1852,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": null,
-   "location": "Ogbanya"
+   "location": "Ogbawa"
   }
  },
  "dev-01998": {
@@ -1889,7 +1879,7 @@
   }
  },
  "dev-00780": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0749082977",
    "amount": 199,
@@ -2028,11 +2018,11 @@
   }
  },
  "dev-00525": {
-  "tool": "buy_airtime",
+  "tool": "set_reminder",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "task": "buy fertiliser",
+   "date": "tomorrow",
+   "time": "15:00"
   }
  },
  "dev-00641": {
@@ -2059,7 +2049,7 @@
   }
  },
  "dev-01091": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0110324017",
    "amount": 1000,
@@ -2077,7 +2067,7 @@
  "dev-00153": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Rusizi",
+   "location": "Rusia",
    "date": "today"
   }
  },
@@ -2181,10 +2171,10 @@
   }
  },
  "dev-00869": {
-  "tool": "get_weather",
+  "tool": "get_umbrella",
   "parameters": {
    "location": "Kampala",
-   "date": null
+   "type": null
   }
  },
  "dev-00970": {
@@ -2197,10 +2187,9 @@
   }
  },
  "dev-01616": {
-  "tool": "get_weather",
+  "tool": "check_balance",
   "parameters": {
-   "location": "Mekelle",
-   "date": "14 February"
+   "provider": null
   }
  },
  "dev-01751": {
@@ -2369,7 +2358,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "beans",
-    "location": "Kaszubi"
+    "location": "Kasubi"
    }
   }
  ],
@@ -2378,7 +2367,7 @@
   "parameters": {
    "amount": 1000,
    "from_currency": "ZAR",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-01342": {
@@ -2480,11 +2469,9 @@
   }
  },
  "dev-00688": {
-  "tool": "buy_airtime",
+  "tool": "get_umbrella",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "location": "Kakoba"
   }
  },
  "dev-00700": {
@@ -2549,7 +2536,7 @@
  "dev-00945": {
   "tool": "get_crop_price",
   "parameters": {
-   "crop": null,
+   "crop": "Yam",
    "location": "Kurmi"
   }
  },
@@ -2633,11 +2620,8 @@
   }
  },
  "dev-00585": {
-  "tool": "send_money",
+  "tool": "check_balance",
   "parameters": {
-   "recipient": " Mahama",
-   "amount": 800,
-   "currency": null,
    "provider": null
   }
  },
@@ -2668,8 +2652,8 @@
   "parameters": {
    "recipient": "Baraka",
    "amount": 20000,
-   "currency": null,
-   "provider": "Baraka"
+   "currency": "ZAR",
+   "provider": null
   }
  },
  "dev-01517": {
@@ -2729,7 +2713,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": 500000,
-   "from_currency": "KES",
+   "from_currency": "UGX",
    "to_currency": null
   }
  },
@@ -2935,11 +2919,8 @@
   }
  ],
  "dev-00909": {
-  "tool": "send_money",
+  "tool": "check_balance",
   "parameters": {
-   "recipient": "Marike",
-   "amount": 100,
-   "currency": "ZAR",
    "provider": "eWallet"
   }
  },
@@ -3002,7 +2983,7 @@
   }
  },
  "dev-00391": {
-  "tool": "buy_data",
+  "tool": "buy_airtime",
   "parameters": {
    "phone": "0775381788",
    "amount": 99,
@@ -3107,8 +3088,8 @@
  "dev-00196": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "10253916533",
-   "amount": 300,
+   "meter_number": "300",
+   "amount": 10253916533,
    "currency": "ZMW"
   }
  },
@@ -3123,7 +3104,7 @@
   "parameters": {
    "amount": 500,
    "from_currency": "ZAR",
-   "to_currency": "ZMW"
+   "to_currency": "ZAR"
   }
  },
  "dev-01370": {
@@ -3153,7 +3134,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "onions",
-   "location": "Addis"
+   "location": "Addis Ababa"
   }
  },
  "dev-01627": {
@@ -3186,11 +3167,8 @@
   }
  },
  "dev-01920": {
-  "tool": "send_money",
+  "tool": "check_balance",
   "parameters": {
-   "recipient": null,
-   "amount": 200,
-   "currency": "ZAR",
    "provider": null
   }
  },
@@ -3219,6 +3197,12 @@
   {
    "tool": "report_outage",
    "parameters": {
+    "location": "Enugu"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
     "location": "Haven"
    }
   }
@@ -3231,11 +3215,11 @@
   }
  },
  "dev-00462": {
-  "tool": "buy_airtime",
+  "tool": "set_reminder",
   "parameters": {
-   "phone": null,
-   "amount": 200,
-   "network": null
+   "task": "get rid of null values",
+   "date": null,
+   "time": null
   }
  },
  "dev-01031": {
@@ -3270,17 +3254,18 @@
  "dev-01865": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Opi",
+   "recipient": "Opippo",
    "amount": 50000,
    "currency": "UGX",
    "provider": "MTN MoMo"
   }
  },
  "dev-01957": {
-  "tool": "get_weather",
+  "tool": "set_reminder",
   "parameters": {
-   "location": null,
-   "date": "tuesday"
+   "task": "check the weather",
+   "date": "tuesday",
+   "time": "07:15"
   }
  },
  "dev-00009": [
@@ -3312,11 +3297,10 @@
   }
  },
  "dev-00976": {
-  "tool": "buy_umbrella",
+  "tool": "get_weather",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "location": "Ngoma",
+   "date": "tomorrow"
   }
  },
  "dev-01119": {
@@ -3406,8 +3390,8 @@
  "dev-00305": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "47139628796",
-   "amount": 30000,
+   "meter_number": "30000",
+   "amount": 47139628796,
    "currency": "TZS"
   }
  },
@@ -3425,10 +3409,9 @@
   }
  },
  "dev-00821": {
-  "tool": "get_weather",
+  "tool": "check_balance",
   "parameters": {
-   "location": "Kakoba",
-   "date": "tomorrow"
+   "provider": null
   }
  },
  "dev-00983": {
@@ -3586,7 +3569,7 @@
   }
  },
  "dev-00627": {
-  "tool": "buy_data",
+  "tool": "buy_airtime",
   "parameters": {
    "phone": "0749349584",
    "amount": 3000,
@@ -3608,18 +3591,17 @@
   }
  },
  "dev-01057": {
-  "tool": "send_money",
+  "tool": "convert_currency",
   "parameters": {
-   "recipient": "Mekdes",
    "amount": 1500,
-   "currency": "ETB",
-   "provider": "MPESA"
+   "from_currency": "ETB",
+   "to_currency": null
   }
  },
  "dev-01244": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Rusizi",
+   "location": "Rusia",
    "date": "tomorrow"
   }
  },
@@ -3678,7 +3660,7 @@
   }
  },
  "dev-01302": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0238720998",
    "amount": 10,
@@ -3722,12 +3704,9 @@
   }
  },
  "dev-00674": {
-  "tool": "send_money",
+  "tool": "report_outage",
   "parameters": {
-   "recipient": "Palesa",
-   "amount": 500,
-   "currency": "ZAR",
-   "provider": "VodaPay"
+   "location": "VodaPay"
   }
  },
  "dev-00843": {
@@ -3743,7 +3722,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": null,
-   "location": "Jos"
+   "location": "Sjos"
   }
  },
  "dev-01555": {
@@ -3759,7 +3738,7 @@
   "parameters": {
    "amount": 1000,
    "from_currency": "ZMW",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-01820": {
@@ -3790,7 +3769,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "tomatoes",
-   "location": " Tshwane"
+   "location": "Tshwane"
   }
  },
  "dev-00560": {
@@ -3811,10 +3790,9 @@
   }
  },
  "dev-00681": {
-  "tool": "get_weather",
+  "tool": "check_balance",
   "parameters": {
-   "location": "Techiman",
-   "date": "sunday"
+   "provider": null
   }
  },
  "dev-00830": {
@@ -3836,7 +3814,7 @@
  "dev-01033": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Mabula Swai",
+   "recipient": null,
    "amount": 10000,
    "currency": "TZS",
    "provider": "Tigo Pesa"
@@ -3911,12 +3889,20 @@
    "network": "9mobile"
   }
  },
- "dev-00949": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Nyabugogo"
+ "dev-00949": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Nyabugogo"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Nyabugogo"
+   }
   }
- },
+ ],
  "dev-01102": [
   {
    "tool": "get_crop_price",
@@ -4011,11 +3997,9 @@
   }
  },
  "dev-01003": {
-  "tool": "buy_airtime",
+  "tool": "check_balance",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "provider": null
   }
  },
  "dev-01488": {
@@ -4051,7 +4035,7 @@
   }
  ],
  "dev-01965": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": null,
    "amount": 5,
@@ -4109,14 +4093,23 @@
    "network": "Glo"
   }
  },
- "dev-00883": {
-  "tool": "convert_currency",
-  "parameters": {
-   "amount": 10000,
-   "from_currency": null,
-   "to_currency": null
+ "dev-00883": [
+  {
+   "tool": "check_balance",
+   "parameters": {
+    "provider": "Mpesa"
+   }
+  },
+  {
+   "tool": "send_money",
+   "parameters": {
+    "recipient": "Hamisi",
+    "amount": 10000,
+    "currency": null,
+    "provider": "Mpesa"
+   }
   }
- },
+ ],
  "dev-00925": [
   {
    "tool": "get_weather",
@@ -4142,7 +4135,7 @@
   }
  },
  "dev-01453": {
-  "tool": "get_weather",
+  "tool": "check_weather",
   "parameters": {
    "location": "Arua",
    "date": null
@@ -4171,7 +4164,7 @@
   }
  },
  "dev-00128": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "+233232482576",
    "amount": 50,
@@ -4214,7 +4207,7 @@
   "parameters": {
    "amount": 500,
    "from_currency": "ZMW",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-01565": {
@@ -4244,7 +4237,7 @@
  "dev-01961": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Mal Mahama Salifu",
+   "recipient": "Salifu",
    "amount": 250,
    "currency": null,
    "provider": "MoMo"
@@ -4450,38 +4443,50 @@
    "network": "MTN"
   }
  },
- "dev-00874": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Mansa"
+ "dev-00874": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Mansa"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Haven"
+   }
   }
- },
+ ],
  "dev-01050": {
   "tool": "check_balance",
   "parameters": {
    "provider": "OPay"
   }
  },
- "dev-01100": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Kampala"
+ "dev-01100": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Kampala"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Kampala"
+   }
   }
- },
+ ],
  "dev-01404": {
-  "tool": "buy_electricity_token",
+  "tool": "get_weather",
   "parameters": {
-   "meter_number": null,
-   "amount": null,
-   "currency": null
+   "location": "Mbarara",
+   "date": null
   }
  },
  "dev-01973": {
-  "tool": "send_money",
+  "tool": "check_balance",
   "parameters": {
-   "recipient": "Nii",
-   "amount": 100,
-   "currency": null,
    "provider": "MTN MoMo"
   }
  },
@@ -4549,12 +4554,20 @@
    "provider": "MTN Mobile Money"
   }
  },
- "dev-00956": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Kakamega"
+ "dev-00956": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Kakamega"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Haven"
+   }
   }
- },
+ ],
  "dev-01025": {
   "tool": "buy_electricity_token",
   "parameters": {
@@ -4566,7 +4579,7 @@
  "dev-01099": {
   "tool": "report_outage",
   "parameters": {
-   "location": "Tangaya National Power"
+   "location": "Tanga Tnx"
   }
  },
  "dev-01310": {
@@ -4605,7 +4618,7 @@
    "recipient": "Liya Mpesa",
    "amount": 2000,
    "currency": "ETB",
-   "provider": "Mpesa"
+   "provider": "Liya Mpesa"
   }
  },
  "dev-00162": {
@@ -4663,14 +4676,24 @@
    "provider": "telebirr"
   }
  },
- "dev-00725": {
-  "tool": "convert_currency",
-  "parameters": {
-   "amount": 500,
-   "from_currency": "EUR",
-   "to_currency": "NGN"
+ "dev-00725": [
+  {
+   "tool": "convert_currency",
+   "parameters": {
+    "amount": 500,
+    "from_currency": "EUR",
+    "to_currency": "NGN"
+   }
+  },
+  {
+   "tool": "buy_data",
+   "parameters": {
+    "phone": "08096542833",
+    "amount": 1000,
+    "network": "9mobile"
+   }
   }
- },
+ ],
  "dev-00981": {
   "tool": "buy_airtime",
   "parameters": {
@@ -4699,7 +4722,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "millet",
-   "location": "Tororo"
+   "location": "Toro"
   }
  },
  "dev-01953": {
@@ -4913,7 +4936,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": null,
-   "location": null
+   "location": "Tnx"
   }
  },
  "dev-01631": {
@@ -4961,7 +4984,7 @@
   "parameters": {
    "amount": 250,
    "from_currency": "USD",
-   "to_currency": "USD"
+   "to_currency": null
   }
  },
  "dev-00516": {
@@ -4990,8 +5013,8 @@
  "dev-00950": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "44116150851",
-   "amount": 30000,
+   "meter_number": "30000",
+   "amount": 44116150851,
    "currency": "TZS"
   }
  },
@@ -5034,14 +5057,14 @@
   {
    "tool": "report_outage",
    "parameters": {
-    "location": "Ayit"
+    "location": "Ayat"
    }
   }
  ],
  "dev-00779": {
   "tool": "check_balance",
   "parameters": {
-   "provider": "MPESA"
+   "provider": "Mpesa"
   }
  },
  "dev-01209": [
@@ -5067,10 +5090,9 @@
   }
  },
  "dev-01814": {
-  "tool": "get_weather",
+  "tool": "check_balance",
   "parameters": {
-   "location": "Ibadan",
-   "date": "9 July"
+   "provider": null
   }
  },
  "dev-01836": {
@@ -5119,7 +5141,7 @@
    "parameters": {
     "phone": "0787962415",
     "amount": 149,
-    "network": "MTN"
+    "network": "0787962415"
    }
   },
   {
@@ -5127,7 +5149,7 @@
    "parameters": {
     "phone": "0730802788",
     "amount": 99,
-    "network": "MTN"
+    "network": "0730802788"
    }
   }
  ],
@@ -5208,7 +5230,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": 20000,
-   "from_currency": "KES",
+   "from_currency": "TZS",
    "to_currency": "RWF"
   }
  },
@@ -5257,7 +5279,7 @@
   "parameters": {
    "amount": 500000,
    "from_currency": "NGN",
-   "to_currency": "KES"
+   "to_currency": null
   }
  },
  "dev-00112": {
@@ -5286,7 +5308,7 @@
   {
    "tool": "buy_data",
    "parameters": {
-    "phone": "50000",
+    "phone": "0744640296",
     "amount": 50000,
     "network": "Airtel"
    }
@@ -5572,7 +5594,7 @@
  "dev-00277": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Nyxad",
+   "location": "Tnx",
    "date": null
   }
  },
@@ -5702,7 +5724,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "maize",
-   "location": " Tshwane"
+   "location": "Tshwane"
   }
  },
  "dev-01962": [
@@ -5717,7 +5739,7 @@
   {
    "tool": "buy_data",
    "parameters": {
-    "phone": "2000",
+    "phone": "0714590278",
     "amount": 2000,
     "network": "Saf"
    }
@@ -5769,7 +5791,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "potatoes",
-   "location": " Tshwane"
+   "location": "Tshwane"
   }
  },
  "dev-00770": {
@@ -5813,7 +5835,7 @@
    "parameters": {
     "phone": "0968139994",
     "amount": 50,
-    "network": "MTN MoMo"
+    "network": "MTN"
    }
   },
   {
@@ -5822,7 +5844,7 @@
     "recipient": "Chilufya",
     "amount": 200,
     "currency": "ZMW",
-    "provider": "MTN MoMo Tnx"
+    "provider": "MTN MoN"
    }
   }
  ],
@@ -5948,10 +5970,8 @@
  },
  "dev-01040": [
   {
-   "tool": "convert_currency",
+   "tool": "check_balance",
    "parameters": {
-    "convert_currency": "ZAR",
-    "send_money": "Lwazi",
     "provider": "Capitec"
    }
   },
@@ -5997,22 +6017,13 @@
    "provider": "MTN MoMo"
   }
  },
- "dev-01487": [
-  {
-   "tool": "get_weather",
-   "parameters": {
-    "location": "Tanga",
-    "date": "sunday"
-   }
-  },
-  {
-   "tool": "get_crop_price",
-   "parameters": {
-    "crop": "maize",
-    "location": "Tanga"
-   }
+ "dev-01487": {
+  "tool": "get_weather",
+  "parameters": {
+   "location": "Tanga Tnx",
+   "date": "sunday"
   }
- ],
+ },
  "dev-00520": [
   {
    "tool": "buy_electricity_token",
@@ -6092,8 +6103,8 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": 20,
-   "from_currency": "EUR",
-   "to_currency": "GHS"
+   "from_currency": "GHS",
+   "to_currency": null
   }
  },
  "dev-01696": {
@@ -6227,7 +6238,7 @@
   }
  },
  "dev-01107": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0789782737",
    "amount": null,
@@ -6295,7 +6306,7 @@
    "recipient": "MoMo",
    "amount": 200000,
    "currency": "UGX",
-   "provider": "MoMo"
+   "provider": null
   }
  },
  "dev-00491": {
@@ -6348,9 +6359,9 @@
  "dev-01378": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Ayishetu Telecel Cash",
+   "recipient": null,
    "amount": 1500,
-   "currency": null,
+   "currency": "AYI",
    "provider": "Telecel Cash"
   }
  },
@@ -6398,7 +6409,7 @@
   "tool": "buy_data",
   "parameters": {
    "phone": "0684265294",
-   "amount": 3000,
+   "amount": 2000,
    "network": "Airtel"
   }
  },
@@ -6411,15 +6422,25 @@
    "provider": "MTN MoMo"
   }
  },
- "dev-00963": {
-  "tool": "send_money",
-  "parameters": {
-   "recipient": "Chilufya",
-   "amount": 2000,
-   "currency": "ZMW",
-   "provider": "MoMo"
+ "dev-00963": [
+  {
+   "tool": "send_money",
+   "parameters": {
+    "recipient": "Chilufya",
+    "amount": 2000,
+    "currency": "ZMW",
+    "provider": "MoMo"
+   }
+  },
+  {
+   "tool": "buy_airtime",
+   "parameters": {
+    "phone": "0962367872",
+    "amount": 10,
+    "network": "MTN"
+   }
   }
- },
+ ],
  "dev-00967": {
   "tool": "buy_airtime",
   "parameters": {
@@ -6472,12 +6493,20 @@
    }
   }
  ],
- "dev-00158": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Mbarara"
+ "dev-00158": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Mbarara"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Mbarara"
+   }
   }
- },
+ ],
  "dev-00164": {
   "tool": "buy_data",
   "parameters": {
@@ -6526,7 +6555,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "potatoes",
-   "location": " Tshwane"
+   "location": "Tshwane"
   }
  },
  "dev-00716": {
@@ -6582,7 +6611,7 @@
    "recipient": "Tshepo",
    "amount": 5000,
    "currency": null,
-   "provider": null
+   "provider": "Tshepo"
   }
  },
  "dev-01724": {
@@ -6608,7 +6637,7 @@
   }
  },
  "dev-01947": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "08054224221",
    "amount": 1000,
@@ -6655,7 +6684,7 @@
   }
  },
  "dev-00708": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0732929373",
    "amount": 5000,
@@ -6802,7 +6831,7 @@
   {
    "tool": "get_weather",
    "parameters": {
-    "location": "Dessie",
+    "location": null,
     "date": "sunday"
    }
   },
@@ -6810,7 +6839,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "maize",
-    "location": "Dessie"
+    "location": null
    }
   }
  ],
@@ -6921,14 +6950,23 @@
    "date": null
   }
  },
- "dev-01511": {
-  "tool": "buy_data",
-  "parameters": {
-   "phone": "+2348090546536",
-   "amount": 1000,
-   "network": "9mobile"
+ "dev-01511": [
+  {
+   "tool": "get_crop_price",
+   "parameters": {
+    "crop": "maize",
+    "location": "Jos"
+   }
+  },
+  {
+   "tool": "buy_data",
+   "parameters": {
+    "phone": "+2348090546536",
+    "amount": 9,
+    "network": "9mobile"
+   }
   }
- },
+ ],
  "dev-01523": {
   "tool": "buy_data",
   "parameters": {
@@ -6956,11 +6994,11 @@
   }
  },
  "dev-00076": {
-  "tool": "buy_umbrella",
+  "tool": "get_umbrella",
   "parameters": {
-   "meter_number": null,
+   "phone": null,
    "amount": null,
-   "currency": null
+   "network": "Chipata"
   }
  },
  "dev-00195": [
@@ -6986,11 +7024,12 @@
   }
  },
  "dev-00600": {
-  "tool": "buy_airtime",
+  "tool": "send_money",
   "parameters": {
-   "phone": null,
+   "recipient": null,
    "amount": 15,
-   "network": "Airtel"
+   "currency": "ZMW",
+   "provider": "Airtel"
   }
  },
  "dev-00714": [
@@ -7103,7 +7142,7 @@
  "dev-00785": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Mugabo",
+   "recipient": "Mugoabo",
    "amount": 50000,
    "currency": "RWF",
    "provider": "Airtel Money"
@@ -7160,7 +7199,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": null,
-   "from_currency": "KES",
+   "from_currency": "TZS",
    "to_currency": "EUR"
   }
  },
@@ -7245,7 +7284,7 @@
   {
    "tool": "report_outage",
    "parameters": {
-    "location": "Zanzibar"
+    "location": "Zanzaria"
    }
   },
   {
@@ -7507,7 +7546,7 @@
   "parameters": {
    "amount": 1000,
    "from_currency": "ZMW",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-00380": {
@@ -7588,15 +7627,16 @@
    "parameters": {
     "phone": "0934910513",
     "amount": 200,
-    "network": "Ethio Telecom"
+    "network": "Ethio telecom"
    }
   },
   {
-   "tool": "buy_airtime",
+   "tool": "send_money",
    "parameters": {
-    "phone": "0935854175",
+    "recipient": "0935854175",
     "amount": 15,
-    "network": "Ethio Telecom"
+    "currency": "ETB",
+    "provider": "Ethio telecom"
    }
   }
  ],
@@ -7647,14 +7687,14 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "matooke",
-    "location": "Kasubi"
+    "location": "Kabisubi"
    }
   },
   {
    "tool": "get_crop_price",
    "parameters": {
     "crop": "sorghum",
-    "location": "Kasubi"
+    "location": "Kabisubi"
    }
   }
  ],
@@ -7715,16 +7755,17 @@
   {
    "tool": "set_reminder",
    "parameters": {
-    "task": "pay my NEPA bill",
+    "task": "pay my nepa bill",
     "date": "today",
     "time": "21:00"
    }
   },
   {
-   "tool": "get_weather",
+   "tool": "set_reminder",
    "parameters": {
-    "location": null,
-    "date": "today"
+    "task": "check the weather",
+    "date": "today",
+    "time": "17:00"
    }
   }
  ],
@@ -7745,7 +7786,7 @@
   }
  },
  "dev-00281": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0964211096",
    "amount": 15,
@@ -7902,17 +7943,15 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "maize",
-    "location": "Yayat"
+    "location": "Ayvıt"
    }
   },
   {
-   "tool": "send_money",
+   "tool": "buy_airtime",
    "parameters": {
+    "phone": "0701817897",
     "amount": 200,
-    "currency": null,
-    "recipient": "0701817897",
-    "message": "Thank you",
-    "country": "Safaricom"
+    "network": "Safaricom"
    }
   }
  ],
@@ -8021,11 +8060,10 @@
   }
  },
  "dev-01534": {
-  "tool": "buy_umbrella",
+  "tool": "check_weather",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "location": "Homa",
+   "date": null
   }
  },
  "dev-01655": [
@@ -8092,13 +8130,13 @@
   "parameters": {
    "phone": "0503401026",
    "amount": 100,
-   "network": "Telecel"
+   "network": "Telecel Nex"
   }
  },
  "dev-00296": {
   "tool": "set_reminder",
   "parameters": {
-   "task": "remember to buy airtime",
+   "task": "buy airtime",
    "date": "sunday",
    "time": "11:00"
   }
@@ -8115,7 +8153,7 @@
   "parameters": {
    "amount": 150,
    "from_currency": "USD",
-   "to_currency": "USD"
+   "to_currency": null
   }
  },
  "dev-00948": {
@@ -8136,7 +8174,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "cassava",
-    "location": "Kamowaye"
+    "location": "Kamega"
    }
   },
   {
@@ -8268,11 +8306,11 @@
   "parameters": {
    "amount": 50,
    "from_currency": "EUR",
-   "to_currency": "NGN"
+   "to_currency": "TZN"
   }
  },
  "dev-00352": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0114490345",
    "amount": null,
@@ -8286,11 +8324,10 @@
   }
  },
  "dev-00724": {
-  "tool": "buy_umbrella",
+  "tool": "get_weather",
   "parameters": {
-   "meter_number": null,
-   "amount": null,
-   "currency": null
+   "location": "Maitama",
+   "date": "tomorrow"
   }
  },
  "dev-00787": {
@@ -8353,7 +8390,7 @@
  "dev-01669": {
   "tool": "report_outage",
   "parameters": {
-   "location": "Debre Markos"
+   "location": "Debre"
   }
  },
  "dev-01692": {
@@ -8401,7 +8438,7 @@
   {
    "tool": "get_weather",
    "parameters": {
-    "location": "Ngoma",
+    "location": "Nkana",
     "date": "sunday"
    }
   },
@@ -8409,7 +8446,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "maize",
-    "location": "Ngoma"
+    "location": "Nkana"
    }
   }
  ],
@@ -8471,9 +8508,9 @@
   {
    "tool": "convert_currency",
    "parameters": {
-    "amount": 100,
+    "amount": null,
     "from_currency": "GHS",
-    "to_currency": "Telecel Cash"
+    "to_currency": null
    }
   },
   {
@@ -8531,14 +8568,21 @@
    "to_currency": "TZS"
   }
  },
- "dev-01323": {
-  "tool": "buy_electricity_token",
-  "parameters": {
-   "meter_number": null,
-   "amount": null,
-   "currency": null
+ "dev-01323": [
+  {
+   "tool": "get_weather",
+   "parameters": {
+    "location": "Hoima",
+    "date": "saturday"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Hoima"
+   }
   }
- },
+ ],
  "dev-01361": {
   "tool": "buy_airtime",
   "parameters": {
@@ -8596,7 +8640,7 @@
  "dev-00362": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Rehema",
+   "recipient": "Rehema Airtel Money",
    "amount": 5000,
    "currency": null,
    "provider": "Airtel Money"
@@ -8662,11 +8706,10 @@
   }
  },
  "dev-01874": {
-  "tool": "buy_data",
+  "tool": "get_crop_price",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": null
+   "crop": "maize",
+   "location": null
   }
  },
  "dev-00461": [
@@ -8776,8 +8819,8 @@
  "dev-01929": {
   "tool": "buy_electricity_token",
   "parameters": {
-   "meter_number": "48218183334",
-   "amount": 5000,
+   "meter_number": "5000",
+   "amount": 48218183334,
    "currency": "TZS"
   }
  },
@@ -8801,7 +8844,7 @@
   "parameters": {
    "amount": 50000,
    "from_currency": "KES",
-   "to_currency": "USD"
+   "to_currency": null
   }
  },
  "dev-01504": {
@@ -8856,14 +8899,14 @@
  "dev-00314": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Kraeifontein",
+   "location": "Kraaifontein",
    "date": "sunday"
   }
  },
  "dev-00893": {
   "tool": "get_weather",
   "parameters": {
-   "location": null,
+   "location": "Nyxon",
    "date": "tomorrow"
   }
  },
@@ -8919,7 +8962,7 @@
   "parameters": {
    "amount": 2000,
    "from_currency": "ZAR",
-   "to_currency": "ZMW"
+   "to_currency": null
   }
  },
  "dev-00765": [
@@ -8966,7 +9009,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "beans",
-   "location": "Ogbonbo"
+   "location": "Osogbo"
   }
  },
  "dev-01153": {
@@ -8980,7 +9023,7 @@
   {
    "tool": "send_money",
    "parameters": {
-    "recipient": "Kamil",
+    "recipient": "Khillufya Mamba",
     "amount": 300,
     "currency": null,
     "provider": "Airtel Money"
@@ -9082,7 +9125,7 @@
  "dev-00890": {
   "tool": "set_reminder",
   "parameters": {
-   "task": null,
+   "task": "my memory",
    "date": "tomorrow",
    "time": "19:30"
   }
@@ -9096,7 +9139,7 @@
  "dev-01043": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Ayanda Zungu",
+   "recipient": "Ayanda Zungu Capitec",
    "amount": 1000,
    "currency": "USD",
    "provider": "Capitec"
@@ -9244,7 +9287,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": null,
-   "from_currency": "KES",
+   "from_currency": "TZS",
    "to_currency": "UGX"
   }
  },
@@ -9338,7 +9381,7 @@
    "parameters": {
     "phone": "0594721238",
     "amount": 5,
-    "network": "MTN"
+    "network": null
    }
   },
   {
@@ -9392,7 +9435,7 @@
   "parameters": {
    "amount": 2000,
    "from_currency": "ZAR",
-   "to_currency": "NGN"
+   "to_currency": "TZN"
   }
  },
  "dev-01799": {
@@ -9439,7 +9482,7 @@
   {
    "tool": "buy_data",
    "parameters": {
-    "phone": "25000",
+    "phone": "0786431221",
     "amount": 25000,
     "network": "MTN"
    }
@@ -9493,7 +9536,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "wheat",
-   "location": "Camea"
+   "location": "Arama"
   }
  },
  "dev-00484": {
@@ -9642,7 +9685,7 @@
   "parameters": {
    "amount": 100,
    "from_currency": "EUR",
-   "to_currency": "EUR"
+   "to_currency": "RWF"
   }
  },
  "dev-01118": {
@@ -9664,7 +9707,7 @@
  "dev-01887": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Opie'iem",
+   "recipient": "Opi'yem",
    "amount": 20000,
    "currency": "UGX",
    "provider": "Airtel Money"
@@ -9801,18 +9844,26 @@
    "provider": "PalmPay"
   }
  },
- "dev-00998": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Kapsoya"
+ "dev-00998": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Kapsoya"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Kapsoya"
+   }
   }
- },
+ ],
  "dev-01285": {
   "tool": "convert_currency",
   "parameters": {
    "amount": 5000,
    "from_currency": "TZS",
-   "to_currency": "ZMW"
+   "to_currency": "TZS"
   }
  },
  "dev-01659": {
@@ -9833,8 +9884,8 @@
    "tool": "convert_currency",
    "parameters": {
     "amount": 10,
-    "from_currency": "USD",
-    "to_currency": "NGN"
+    "from_currency": "RWF",
+    "to_currency": "RWF"
    }
   },
   {
@@ -9850,14 +9901,14 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "wheat",
-    "location": " Tshwane"
+    "location": "Tshwane"
    }
   },
   {
    "tool": "get_crop_price",
    "parameters": {
     "crop": "potatoes",
-    "location": " Tshwane"
+    "location": "Tshwane"
    }
   }
  ],
@@ -10012,7 +10063,7 @@
   {
    "tool": "buy_data",
    "parameters": {
-    "phone": "2000",
+    "phone": "0793137090",
     "amount": 2000,
     "network": "MTN"
    }
@@ -10041,10 +10092,11 @@
    }
   },
   {
-   "tool": "get_weather",
+   "tool": "set_reminder",
    "parameters": {
-    "location": "Polokwane",
-    "date": "sunday"
+    "task": "check the weather",
+    "date": "sunday",
+    "time": "15:45"
    }
   }
  ],
@@ -10132,7 +10184,7 @@
   }
  },
  "dev-01002": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "08087697244",
    "amount": 1000,
@@ -10228,7 +10280,7 @@
   "parameters": {
    "amount": 1000,
    "from_currency": "ZAR",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-00376": [
@@ -10340,7 +10392,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "rice",
-   "location": null
+   "location": "Nyxar"
   }
  },
  "dev-00304": {
@@ -10388,7 +10440,7 @@
   {
    "tool": "set_reminder",
    "parameters": {
-    "task": "call mwamba",
+    "task": "call Mwuamba",
     "date": "friday",
     "time": "13:00"
    }
@@ -10423,12 +10475,12 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "maize",
-    "location": "Hoima"
+    "location": "Homa"
    }
   }
  ],
  "dev-00013": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0776694493",
    "amount": 50,
@@ -10476,7 +10528,7 @@
  "dev-00912": {
   "tool": "report_outage",
   "parameters": {
-   "location": "Zanzibar"
+   "location": "Zanzaria"
   }
  },
  "dev-01177": {
@@ -10794,7 +10846,7 @@
   }
  },
  "dev-01402": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "+254775105979",
    "amount": null,
@@ -10839,14 +10891,23 @@
    "currency": "ZAR"
   }
  },
- "dev-00439": {
-  "tool": "buy_data",
-  "parameters": {
-   "phone": "0785765798",
-   "amount": 25000,
-   "network": "MTN"
+ "dev-00439": [
+  {
+   "tool": "buy_data",
+   "parameters": {
+    "phone": "0785765798",
+    "amount": 25000,
+    "network": "MTN"
+   }
+  },
+  {
+   "tool": "get_crop_price",
+   "parameters": {
+    "crop": "beans",
+    "location": "Hoima"
+   }
   }
- },
+ ],
  "dev-00502": {
   "tool": "set_reminder",
   "parameters": {
@@ -10875,7 +10936,7 @@
  "dev-00885": {
   "tool": "get_weather",
   "parameters": {
-   "location": "Zanzibar",
+   "location": "Zanzar",
    "date": "thursday"
   }
  },
@@ -10922,15 +10983,15 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "maize",
-   "location": " Tshwane"
+   "location": "Tshwane"
   }
  },
  "dev-00307": {
   "tool": "convert_currency",
   "parameters": {
    "amount": 150,
-   "from_currency": "ETB",
-   "to_currency": "USD"
+   "from_currency": "USD",
+   "to_currency": null
   }
  },
  "dev-00313": {
@@ -10955,7 +11016,7 @@
    "parameters": {
     "phone": "0965954036",
     "amount": 50,
-    "network": "MTN"
+    "network": "ZMW"
    }
   }
  ],
@@ -11022,7 +11083,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "beans",
-   "location": "Comesa"
+   "location": "Coma"
   }
  },
  "dev-01320": [
@@ -11195,7 +11256,7 @@
    "parameters": {
     "recipient": "Dzifa",
     "amount": 20,
-    "currency": "UGX",
+    "currency": "USD",
     "provider": "Telecel Cash"
    }
   },
@@ -11220,7 +11281,7 @@
   {
    "tool": "get_weather",
    "parameters": {
-    "location": "Zanzibar",
+    "location": "Zanzaria",
     "date": "tomorrow"
    }
   }
@@ -11293,7 +11354,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "matooke",
-    "location": "Kabisubi"
+    "location": "Kasubi"
    }
   },
   {
@@ -11391,7 +11452,7 @@
   "tool": "set_reminder",
   "parameters": {
    "task": "vaccinate the chickens",
-   "date": "tomorrow",
+   "date": null,
    "time": "13:30"
   }
  },
@@ -11450,7 +11511,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "potatoes",
-    "location": "Rusizi"
+    "location": "Rizi"
    }
   },
   {
@@ -11576,8 +11637,8 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": null,
-   "from_currency": "KES",
-   "to_currency": "TZS"
+   "from_currency": "TZS",
+   "to_currency": "USD"
   }
  },
  "dev-00745": {
@@ -11604,7 +11665,7 @@
   }
  },
  "dev-01997": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": null,
    "amount": null,
@@ -11724,7 +11785,7 @@
   }
  },
  "dev-01900": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "0735570939",
    "amount": 500,
@@ -11777,7 +11838,7 @@
    "parameters": {
     "phone": "0925072327",
     "amount": 50,
-    "network": "Ethio Telecom"
+    "network": "Ethio telecom"
    }
   }
  ],
@@ -11815,12 +11876,11 @@
  },
  "dev-01348": [
   {
-   "tool": "send_money",
+   "tool": "buy_airtime",
    "parameters": {
-    "recipient": "Odhiambo",
+    "phone": null,
     "amount": 15000,
-    "currency": null,
-    "provider": "Airtel Money"
+    "network": "Airtel Money"
    }
   },
   {
@@ -11886,14 +11946,23 @@
    "location": "Nakuru"
   }
  },
- "dev-00623": {
-  "tool": "buy_electricity_token",
-  "parameters": {
-   "meter_number": "56736880730",
-   "amount": 500,
-   "currency": null
+ "dev-00623": [
+  {
+   "tool": "get_weather",
+   "parameters": {
+    "location": "Meru",
+    "date": "today"
+   }
+  },
+  {
+   "tool": "buy_electricity_token",
+   "parameters": {
+    "meter_number": "56736880730",
+    "amount": 500,
+    "currency": null
+   }
   }
- },
+ ],
  "dev-00794": {
   "tool": "report_outage",
   "parameters": {
@@ -11954,7 +12023,7 @@
   {
    "tool": "report_outage",
    "parameters": {
-    "location": "Haven"
+    "location": "Addis Ababa"
    }
   }
  ],
@@ -11975,7 +12044,7 @@
  "dev-01712": {
   "tool": "report_outage",
   "parameters": {
-   "location": "Zanzibar"
+   "location": "Zanzaria"
   }
  },
  "dev-01775": {
@@ -12040,17 +12109,17 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": 100,
-   "from_currency": "NGN",
-   "to_currency": "USD"
+   "from_currency": "USD",
+   "to_currency": "NGN"
   }
  },
  "dev-00684": [
   {
    "tool": "convert_currency",
    "parameters": {
-    "amount": 500000,
-    "from_currency": null,
-    "to_currency": "MTN MoMo"
+    "amount": null,
+    "from_currency": "MTN MoMo",
+    "to_currency": null
    }
   },
   {
@@ -12067,14 +12136,14 @@
   {
    "tool": "report_outage",
    "parameters": {
-    "location": "Rusizi"
+    "location": "Rusi"
    }
   },
   {
    "tool": "convert_currency",
    "parameters": {
     "amount": 100000,
-    "from_currency": "EUR",
+    "from_currency": "RWF",
     "to_currency": "RWF"
    }
   }
@@ -12137,12 +12206,20 @@
    "provider": "Telebirr"
   }
  },
- "dev-00337": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Osogbo"
+ "dev-00337": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Osogbo"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Osogbo"
+   }
   }
- },
+ ],
  "dev-00441": {
   "tool": "buy_electricity_token",
   "parameters": {
@@ -12229,7 +12306,7 @@
  "dev-01706": {
   "tool": "convert_currency",
   "parameters": {
-   "amount": 100000,
+   "amount": null,
    "from_currency": null,
    "to_currency": null
   }
@@ -12355,7 +12432,7 @@
  "dev-00178": {
   "tool": "set_reminder",
   "parameters": {
-   "task": null,
+   "task": "my memory",
    "date": "wednesday",
    "time": "15:45"
   }
@@ -12465,11 +12542,10 @@
    }
   },
   {
-   "tool": "convert_currency",
+   "tool": "get_crop_price",
    "parameters": {
-    "amount": 200000,
-    "from_currency": "UGX",
-    "to_currency": "RWF"
+    "crop": "200000",
+    "location": "Rwamagana"
    }
   }
  ],
@@ -12526,15 +12602,16 @@
   "parameters": {
    "amount": 1000,
    "from_currency": "ZMW",
-   "to_currency": "USD"
+   "to_currency": "ZMW"
   }
  },
  "dev-01296": {
-  "tool": "buy_airtime",
+  "tool": "send_money",
   "parameters": {
-   "phone": "0202830867",
+   "recipient": "Charley",
    "amount": 10,
-   "network": "Telecel"
+   "currency": "GHS",
+   "provider": "Telecel"
   }
  },
  "dev-01628": {
@@ -12548,7 +12625,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": null,
-   "from_currency": "KES",
+   "from_currency": "TZS",
    "to_currency": "ZMW"
   }
  },
@@ -12744,11 +12821,10 @@
   }
  },
  "dev-00139": {
-  "tool": "buy_data",
+  "tool": "get_weather",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": "Debre Markos"
+   "location": "Debre Markos",
+   "date": "15 April"
   }
  },
  "dev-00154": {
@@ -12818,12 +12894,20 @@
    "provider": "Airtel Money"
   }
  },
- "dev-01105": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Lamashegu"
+ "dev-01105": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Lamashegu"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Haven"
+   }
   }
- },
+ ],
  "dev-01321": {
   "tool": "buy_electricity_token",
   "parameters": {
@@ -12842,12 +12926,11 @@
   }
  },
  "dev-00038": {
-  "tool": "send_money",
+  "tool": "set_reminder",
   "parameters": {
-   "recipient": "Mwansa",
-   "amount": 1000,
-   "currency": "USD",
-   "provider": "MoMo"
+   "task": "remit",
+   "date": null,
+   "time": null
   }
  },
  "dev-00109": {
@@ -12926,7 +13009,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "matooke",
-    "location": "Kabisubi"
+    "location": "Kasubi"
    }
   }
  ],
@@ -12970,12 +13053,20 @@
    }
   }
  ],
- "dev-00643": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Kansanga"
+ "dev-00643": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Kansanga"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Kansanga"
+   }
   }
- },
+ ],
  "dev-01146": {
   "tool": "buy_airtime",
   "parameters": {
@@ -13061,7 +13152,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "wheat",
-   "location": " Tshwane"
+   "location": "Tshwane"
   }
  },
  "dev-00809": {
@@ -13139,7 +13230,7 @@
  "dev-01848": {
   "tool": "report_outage",
   "parameters": {
-   "location": "Zanzibar"
+   "location": "Zanzaria"
   }
  },
  "dev-00075": [
@@ -13185,7 +13276,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": 1000,
-   "from_currency": "KES",
+   "from_currency": "RWF",
    "to_currency": "RWF"
   }
  },
@@ -13240,12 +13331,11 @@
   }
  ],
  "dev-00331": {
-  "tool": "send_money",
+  "tool": "set_reminder",
   "parameters": {
-   "recipient": "Mugenzi",
-   "amount": 100000,
-   "currency": "RWF",
-   "provider": "Airtel Money"
+   "task": " remit Frw 100000 to Mugenzi",
+   "date": null,
+   "time": null
   }
  },
  "dev-00736": {
@@ -13338,7 +13428,7 @@
   "tool": "set_reminder",
   "parameters": {
    "task": "pay school fees",
-   "date": "monday",
+   "date": "today",
    "time": null
   }
  },
@@ -13347,7 +13437,7 @@
   "parameters": {
    "amount": 5000,
    "from_currency": "ZAR",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-00797": {
@@ -13377,7 +13467,7 @@
   {
    "tool": "report_outage",
    "parameters": {
-    "location": "Arua"
+    "location": "Aarua"
    }
   },
   {
@@ -13471,10 +13561,11 @@
   }
  },
  "dev-00051": {
-  "tool": "get_weather",
+  "tool": "set_reminder",
   "parameters": {
-   "location": "Ayigya",
-   "date": "thursday"
+   "task": "get umbrella",
+   "date": "thursday",
+   "time": null
   }
  },
  "dev-00292": {
@@ -13520,7 +13611,7 @@
   "tool": "get_crop_price",
   "parameters": {
    "crop": "tomatoes",
-   "location": "Kamea"
+   "location": "Cases"
   }
  },
  "dev-01273": {
@@ -13572,11 +13663,10 @@
   }
  },
  "dev-00213": {
-  "tool": "buy_airtime",
+  "tool": "get_weather",
   "parameters": {
-   "phone": null,
-   "amount": null,
-   "network": "Dessie"
+   "location": "Dessie",
+   "date": "monday"
   }
  },
  "dev-01092": {
@@ -13589,7 +13679,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": 50000,
-   "from_currency": "USD",
+   "from_currency": "TZS",
    "to_currency": null
   }
  },
@@ -13681,11 +13771,9 @@
   }
  },
  "dev-01964": {
-  "tool": "buy_electricity_token",
+  "tool": "check_balance",
   "parameters": {
-   "meter_number": null,
-   "amount": null,
-   "currency": null
+   "provider": "ShineUp"
   }
  },
  "dev-00043": {
@@ -13700,15 +13788,14 @@
   {
    "tool": "check_balance",
    "parameters": {
-    "provider": "MPESA"
+    "provider": "Mpesa"
    }
   },
   {
    "tool": "get_crop_price",
    "parameters": {
     "crop": "potatoes",
-    "location": "Shabab",
-    "timestamp": "next day"
+    "location": "Shabab"
    }
   },
   {
@@ -13824,22 +13911,12 @@
    }
   }
  ],
- "dev-00565": [
-  {
-   "tool": "report_outage",
-   "parameters": {
-    "location": "Johannesburg"
-   }
-  },
-  {
-   "tool": "set_reminder",
-   "parameters": {
-    "task": "book the bus ticket",
-    "date": "tomorrow",
-    "time": "19:30"
-   }
+ "dev-00565": {
+  "tool": "report_outage",
+  "parameters": {
+   "location": "Johannesburg"
   }
- ],
+ },
  "dev-01011": [
   {
    "tool": "buy_electricity_token",
@@ -13881,13 +13958,23 @@
    "network": "Airtel"
   }
  },
- "dev-00088": {
-  "tool": "get_weather",
-  "parameters": {
-   "location": "Kuda",
-   "date": null
+ "dev-00088": [
+  {
+   "tool": "get_weather",
+   "parameters": {
+    "location": "Kuda",
+    "date": null
+   }
+  },
+  {
+   "tool": "buy_data",
+   "parameters": {
+    "phone": null,
+    "amount": 15000,
+    "network": "Kuda"
+   }
   }
- },
+ ],
  "dev-00591": {
   "tool": "get_crop_price",
   "parameters": {
@@ -14013,14 +14100,23 @@
    "currency": "RWF"
   }
  },
- "dev-01618": {
-  "tool": "convert_currency",
-  "parameters": {
-   "amount": 500000,
-   "from_currency": "RWF",
-   "to_currency": "EUR"
+ "dev-01618": [
+  {
+   "tool": "convert_currency",
+   "parameters": {
+    "amount": 500000,
+    "from_currency": "RWF",
+    "to_currency": "EUR"
+   }
+  },
+  {
+   "tool": "get_weather",
+   "parameters": {
+    "location": "Kigali",
+    "date": "tomorrow"
+   }
   }
- },
+ ],
  "dev-01182": [
   {
    "tool": "check_balance",
@@ -14099,7 +14195,7 @@
   {
    "tool": "buy_data",
    "parameters": {
-    "phone": "15",
+    "phone": "0234542586",
     "amount": 15,
     "network": "Glo"
    }
@@ -14160,7 +14256,7 @@
   "parameters": {
    "amount": 5000,
    "from_currency": "ZMW",
-   "to_currency": "GHS"
+   "to_currency": null
   }
  },
  "dev-00515": {
@@ -14425,7 +14521,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "sorghum",
-    "location": "Kabisubi"
+    "location": "Kasubi"
    }
   },
   {
@@ -14446,7 +14542,7 @@
  "dev-01878": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Kyomuhendo Rwandabo",
+   "recipient": "Kyomuhendo RabaWogo",
    "amount": 30000,
    "currency": "UGX",
    "provider": "MTN MoMo"
@@ -14513,7 +14609,7 @@
   {
    "tool": "get_weather",
    "parameters": {
-    "location": "Zanzibar",
+    "location": "Zanzaria",
     "date": "tomorrow"
    }
   }
@@ -14562,8 +14658,8 @@
    "tool": "convert_currency",
    "parameters": {
     "amount": 10,
-    "from_currency": "RWF",
-    "to_currency": "USD"
+    "from_currency": "USD",
+    "to_currency": "RWF"
    }
   }
  ],
@@ -14663,14 +14759,24 @@
    }
   }
  ],
- "dev-00169": {
-  "tool": "buy_data",
-  "parameters": {
-   "phone": "0736047836",
-   "amount": 2000,
-   "network": "Airtel"
+ "dev-00169": [
+  {
+   "tool": "buy_data",
+   "parameters": {
+    "phone": "0736047836",
+    "amount": 1000,
+    "network": "Airtel"
+   }
+  },
+  {
+   "tool": "convert_currency",
+   "parameters": {
+    "amount": 2000,
+    "from_currency": "USD",
+    "to_currency": "RWF"
+   }
   }
- },
+ ],
  "dev-00284": {
   "tool": "set_reminder",
   "parameters": {
@@ -14742,8 +14848,8 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": 1000000,
-   "from_currency": "UGX",
-   "to_currency": "USD"
+   "from_currency": "USD",
+   "to_currency": null
   }
  },
  "dev-01755": {
@@ -14803,14 +14909,23 @@
    "network": null
   }
  },
- "dev-00863": {
-  "tool": "buy_airtime",
-  "parameters": {
-   "phone": "0782064248",
-   "amount": 10000,
-   "network": "Airtel"
+ "dev-00863": [
+  {
+   "tool": "buy_airtime",
+   "parameters": {
+    "phone": "0782064248",
+    "amount": 10000,
+    "network": "Airtel"
+   }
+  },
+  {
+   "tool": "get_weather",
+   "parameters": {
+    "location": "Kijenge",
+    "date": "wednesday"
+   }
   }
- },
+ ],
  "dev-00974": {
   "tool": "get_weather",
   "parameters": {
@@ -14945,7 +15060,7 @@
   "tool": "convert_currency",
   "parameters": {
    "amount": null,
-   "from_currency": "USD",
+   "from_currency": "TZS",
    "to_currency": "TZS"
   }
  },
@@ -15093,7 +15208,7 @@
   {
    "tool": "send_money",
    "parameters": {
-    "recipient": "Bereket",
+    "recipient": "Berenet",
     "amount": 5000,
     "currency": "ETB",
     "provider": "CBE Birr"
@@ -15124,7 +15239,7 @@
    }
   },
   {
-   "tool": "push",
+   "tool": "send_money",
    "parameters": {
     "recipient": "Musonda Mwamba",
     "amount": 2000,
@@ -15220,9 +15335,9 @@
   {
    "tool": "buy_data",
    "parameters": {
-    "phone": "3000",
+    "phone": "08086428280",
     "amount": 3000,
-    "network": "Airtel"
+    "network": "Data"
    }
   }
  ],
@@ -15485,12 +15600,20 @@
    }
   }
  ],
- "dev-00764": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Ngoma"
+ "dev-00764": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Ngoma"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Ngoma"
+   }
   }
- },
+ ],
  "dev-01251": {
   "tool": "buy_electricity_token",
   "parameters": {
@@ -15567,7 +15690,7 @@
   "parameters": {
    "recipient": "Lwazi Gqirana",
    "amount": null,
-   "currency": "ZMW",
+   "currency": null,
    "provider": null
   }
  },
@@ -15678,7 +15801,7 @@
   {
    "tool": "report_outage",
    "parameters": {
-    "location": "Nakuru"
+    "location": "Nkana"
    }
   },
   {
@@ -15711,7 +15834,7 @@
    "parameters": {
     "amount": 5000,
     "from_currency": "RWF",
-    "to_currency": "KES"
+    "to_currency": "ZAR"
    }
   }
  ],
@@ -15779,7 +15902,7 @@
   }
  },
  "dev-00393": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": null,
    "amount": 10,
@@ -15942,7 +16065,7 @@
   {
    "tool": "report_outage",
    "parameters": {
-    "location": "Rusizi"
+    "location": "Rizuri"
    }
   },
   {
@@ -15997,7 +16120,7 @@
   {
    "tool": "convert_currency",
    "parameters": {
-    "amount": 2000,
+    "amount": null,
     "from_currency": "ZAR",
     "to_currency": "ZAR"
    }
@@ -16052,18 +16175,26 @@
  "dev-01465": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Mekdes",
+   "recipient": "Dehna",
    "amount": 1000,
    "currency": "ETB",
    "provider": "CBE Birr"
   }
  },
- "dev-00746": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Lusaka"
+ "dev-00746": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Lusaka"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Lusaka"
+   }
   }
- },
+ ],
  "dev-01455": {
   "tool": "buy_data",
   "parameters": {
@@ -16097,12 +16228,11 @@
    }
   },
   {
-   "tool": "send_money",
+   "tool": "set_reminder",
    "parameters": {
-    "recipient": null,
-    "amount": null,
-    "currency": null,
-    "provider": null
+    "task": "close the shop early",
+    "date": "today",
+    "time": "19:30"
    }
   }
  ],
@@ -16146,7 +16276,7 @@
  "dev-01076": {
   "tool": "send_money",
   "parameters": {
-   "recipient": "Mah Mahama",
+   "recipient": " Mahama",
    "amount": 300,
    "currency": "GHS",
    "provider": "MTN MoMo"
@@ -16158,12 +16288,20 @@
    "location": "Kano"
   }
  },
- "dev-01270": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Polokwane"
+ "dev-01270": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Polokwane"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Polokwane"
+   }
   }
- },
+ ],
  "dev-01502": {
   "tool": "set_reminder",
   "parameters": {
@@ -16199,7 +16337,7 @@
  "dev-00257": {
   "tool": "check_balance",
   "parameters": {
-   "provider": "MPESA"
+   "provider": "Mpesa"
   }
  },
  "dev-00500": [
@@ -16227,6 +16365,12 @@
     "task": "check on the goats",
     "date": "saturday",
     "time": "08:00"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Solwezi"
    }
   },
   {
@@ -16433,7 +16577,7 @@
   }
  },
  "dev-01693": {
-  "tool": "buy_airtime",
+  "tool": "buy_data",
   "parameters": {
    "phone": "+254778066039",
    "amount": null,
@@ -16692,7 +16836,7 @@
   {
    "tool": "send_money",
    "parameters": {
-    "recipient": "Abubakuba",
+    "recipient": "Zainab Abubakar",
     "amount": 1500,
     "currency": "NGN",
     "provider": "Moniepoint"
@@ -16806,8 +16950,8 @@
  "dev-01849": {
   "tool": "buy_airtime",
   "parameters": {
-   "phone": "15 November",
-   "amount": 1000,
+   "phone": null,
+   "amount": 15,
    "network": null
   }
  },
@@ -16838,7 +16982,7 @@
    "tool": "convert_currency",
    "parameters": {
     "amount": 50000,
-    "from_currency": "KES",
+    "from_currency": "RWF",
     "to_currency": "KES"
    }
   }
@@ -16970,12 +17114,20 @@
    }
   }
  ],
- "dev-01668": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Dessie"
+ "dev-01668": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Dessie"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Dessie"
+   }
   }
- },
+ ],
  "dev-00426": {
   "tool": "buy_electricity_token",
   "parameters": {
@@ -17087,7 +17239,7 @@
   "parameters": {
    "amount": 2000,
    "from_currency": "RWF",
-   "to_currency": "KES"
+   "to_currency": "RWF"
   }
  },
  "dev-01698": [
@@ -17141,14 +17293,22 @@
    }
   }
  ],
- "dev-01467": {
-  "tool": "set_reminder",
-  "parameters": {
-   "task": "submit my assignment",
-   "date": "today",
-   "time": "12:00"
+ "dev-01467": [
+  {
+   "tool": "set_reminder",
+   "parameters": {
+    "task": "submit my assignment",
+    "date": "today",
+    "time": "12:00"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Mbarara"
+   }
   }
- },
+ ],
  "dev-01738": {
   "tool": "report_outage",
   "parameters": {
@@ -17340,9 +17500,16 @@
    }
   },
   {
+   "tool": "get_crop_price",
+   "parameters": {
+    "crop": "beans",
+    "location": "Kuminaa"
+   }
+  },
+  {
    "tool": "get_weather",
    "parameters": {
-    "location": "Mombasa",
+    "location": "Nduola",
     "date": "4 February"
    }
   }
@@ -17393,9 +17560,16 @@
    }
   },
   {
+   "tool": "get_crop_price",
+   "parameters": {
+    "crop": "sukuma wiki",
+    "location": "Daraja Mbili"
+   }
+  },
+  {
    "tool": "get_weather",
    "parameters": {
-    "location": "Daraja Mbili",
+    "location": "Meru",
     "date": "sunday"
    }
   }
@@ -17405,13 +17579,13 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "groundnuts",
-    "location": "Kamada"
+    "location": "Aka"
    }
   },
   {
    "tool": "send_money",
    "parameters": {
-    "recipient": "Tiyyamike",
+    "recipient": "Tyamike",
     "amount": 100,
     "currency": "ZMW",
     "provider": "Airtel Money"
@@ -17423,7 +17597,7 @@
   "parameters": {
    "phone": null,
    "amount": 10,
-   "network": "GH₵"
+   "network": null
   }
  },
  "dev-00841": {
@@ -17492,7 +17666,7 @@
    }
   },
   {
-   "tool": "buy_airtime",
+   "tool": "buy_data",
    "parameters": {
     "phone": "0717798288",
     "amount": 2000,
@@ -17665,8 +17839,8 @@
    "tool": "convert_currency",
    "parameters": {
     "amount": 20,
-    "from_currency": "ZAR",
-    "to_currency": "GBP"
+    "from_currency": "GBP",
+    "to_currency": "ZAR"
    }
   },
   {
@@ -17687,10 +17861,30 @@
    "provider": "MoMo"
   }
  },
- "dev-01731": {
-  "tool": "",
-  "parameters": {}
- },
+ "dev-01731": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Tamale"
+   }
+  },
+  {
+   "tool": "buy_electricity_token",
+   "parameters": {
+    "meter_number": "67317645252",
+    "amount": 50,
+    "currency": "GHS"
+   }
+  },
+  {
+   "tool": "buy_data",
+   "parameters": {
+    "phone": "0245400811",
+    "amount": 15,
+    "network": "MTN"
+   }
+  }
+ ],
  "dev-00159": {
   "tool": "buy_airtime",
   "parameters": {
@@ -17749,12 +17943,11 @@
    }
   },
   {
-   "tool": "ping",
+   "tool": "set_reminder",
    "parameters": {
-    "recipient": "tomorrow",
-    "amount": null,
-    "currency": null,
-    "provider": "VodaPay"
+    "task": "take the car for service",
+    "date": "tomorrow",
+    "time": "09:45"
    }
   }
  ],
@@ -17771,7 +17964,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "sweet potatoes",
-    "location": "Kabisubi"
+    "location": "Kasubi"
    }
   }
  ],
@@ -17834,9 +18027,11 @@
    }
   },
   {
-   "tool": "check_balance",
+   "tool": "buy_airtime",
    "parameters": {
-    "provider": "MTN"
+    "phone": "+27783793308",
+    "amount": 100,
+    "network": "MTN"
    }
   }
  ],
@@ -17845,7 +18040,7 @@
    "tool": "send_money",
    "parameters": {
     "recipient": "Mukamana",
-    "amount": 10000,
+    "amount": 100000,
     "currency": "RWF",
     "provider": "MTN MoMo"
    }
@@ -17877,7 +18072,7 @@
   {
    "tool": "buy_data",
    "parameters": {
-    "phone": "2000",
+    "phone": "0770558491",
     "amount": 2000,
     "network": "Telkom"
    }
@@ -17944,9 +18139,11 @@
    }
   },
   {
-   "tool": "check_balance",
+   "tool": "set_reminder",
    "parameters": {
-    "provider": "MTN Mobile Money"
+    "task": "how much money is sitting in my MTN Mobile Money wallet",
+    "date": "9 February",
+    "time": "06:30"
    }
   }
  ],
@@ -18040,7 +18237,7 @@
   {
    "tool": "send_money",
    "parameters": {
-    "recipient": "Senyongo Kasozi",
+    "recipient": "Ssenyonga Kasozi",
     "amount": 20000,
     "currency": "UGX",
     "provider": "Airtel Money"
@@ -18112,10 +18309,11 @@
    }
   },
   {
-   "tool": "get_crop_price",
+   "tool": "buy_airtime",
    "parameters": {
-    "crop": "onions",
-    "location": "Ogba"
+    "phone": "09064243388",
+    "amount": 1500,
+    "network": "MTN"
    }
   }
  ],
@@ -18217,7 +18415,7 @@
  "dev-01120": {
   "tool": "buy_airtime",
   "parameters": {
-   "phone": "08066666773",
+   "phone": "0806666773",
    "amount": 200,
    "network": "MTN"
   }
@@ -18238,12 +18436,20 @@
    }
   }
  ],
- "dev-00160": {
-  "tool": "report_outage",
-  "parameters": {
-   "location": "Dessie"
+ "dev-00160": [
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Dessie"
+   }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Dessie"
+   }
   }
- },
+ ],
  "dev-00187": {
   "tool": "check_balance",
   "parameters": {
@@ -18332,7 +18538,7 @@
    "parameters": {
     "amount": 1500,
     "from_currency": "ETB",
-    "to_currency": "Liya"
+    "to_currency": "ZAR"
    }
   }
  ],
@@ -18409,7 +18615,7 @@
    "tool": "get_crop_price",
    "parameters": {
     "crop": "carrots",
-    "location": "Tnx"
+    "location": "Tshwane"
    }
   }
  ],
@@ -18423,11 +18629,12 @@
  },
  "dev-01981": [
   {
-   "tool": "buy_electricity_token",
+   "tool": "send_money",
    "parameters": {
-    "meter_number": null,
+    "recipient": "Liya",
     "amount": 5000,
-    "currency": "ETB"
+    "currency": "ETB",
+    "provider": "MPESA"
    }
   },
   {
@@ -18478,8 +18685,15 @@
    "parameters": {
     "recipient": "Mugabo Twagirayezu",
     "amount": 2000,
-    "currency": null,
+    "currency": "RUs",
     "provider": "Airtel Money"
+   }
+  },
+  {
+   "tool": "get_weather",
+   "parameters": {
+    "location": "Tnx",
+    "date": "4 June"
    }
   }
  ],
@@ -18508,9 +18722,9 @@
    }
   },
   {
-   "tool": "make_sure_I_remember_to_pay_my_rent",
+   "tool": "set_reminder",
    "parameters": {
-    "task": "at 2:00",
+    "task": "pay my rent",
     "date": "today",
     "time": "14:00"
    }
@@ -18534,14 +18748,22 @@
    }
   }
  ],
- "dev-00188": {
-  "tool": "buy_airtime",
-  "parameters": {
-   "phone": "08134919150",
-   "amount": 1000,
-   "network": "MTN"
+ "dev-00188": [
+  {
+   "tool": "refill",
+   "parameters": {
+    "phone": "08134919150",
+    "amount": 1000,
+    "network": "MTN"
+   }
+  },
+  {
+   "tool": "check_balance",
+   "parameters": {
+    "provider": "OPay"
+   }
   }
- },
+ ],
  "dev-00509": [
   {
    "tool": "send_money",
@@ -18563,12 +18785,11 @@
   }
  ],
  "dev-00593": {
-  "tool": "send_money",
+  "tool": "buy_airtime",
   "parameters": {
-   "recipient": "08143914780",
+   "phone": "08143914780",
    "amount": 1000,
-   "currency": "NGN",
-   "provider": null
+   "network": null
   }
  },
  "dev-01607": [
@@ -18619,7 +18840,7 @@
    "tool": "buy_data",
    "parameters": {
     "phone": "+233237538845",
-    "amount": 20,
+    "amount": 300,
     "network": "Globacom"
    }
   },
@@ -18657,6 +18878,13 @@
     "amount": 1000,
     "network": "MTN"
    }
+  },
+  {
+   "tool": "get_crop_price",
+   "parameters": {
+    "crop": "cassava",
+    "location": "Osogbo"
+   }
   }
  ],
  "dev-00118": {
@@ -18675,11 +18903,18 @@
    }
   },
   {
-   "tool": "check_balance",
+   "tool": "buy_airtime",
    "parameters": {
-    "provider": "MTN",
+    "phone": "0761689599",
     "amount": 20,
     "network": "MTN"
+   }
+  },
+  {
+   "tool": "get_weather",
+   "parameters": {
+    "location": "Mansa",
+    "date": "monday"
    }
   }
  ],
@@ -18769,12 +19004,19 @@
    }
   },
   {
-   "tool": "send_money",
+   "tool": "set_reminder",
    "parameters": {
-    "recipient": "0918686927",
+    "task": "collect my parcel",
+    "date": "13 December",
+    "time": "16:00"
+   }
+  },
+  {
+   "tool": "buy_airtime",
+   "parameters": {
+    "phone": "0918686927",
     "amount": 15,
-    "currency": "ETB",
-    "provider": "Ethio Telecom"
+    "network": "Ethio Telecom"
    }
   }
  ],
@@ -18935,6 +19177,12 @@
     "amount": 500,
     "network": "Ethio telecom"
    }
+  },
+  {
+   "tool": "report_outage",
+   "parameters": {
+    "location": "Dessie"
+   }
   }
  ],
  "dev-01307": [
@@ -19048,20 +19296,38 @@
    }
   },
   {
-   "tool": "check_balance",
+   "tool": "buy_airtime",
    "parameters": {
-    "provider": "MTN"
+    "phone": "08165327770",
+    "amount": 1000,
+    "network": "MTN"
    }
   }
  ],
- "dev-01026": {
-  "tool": "convert_currency",
-  "parameters": {
-   "amount": 50000,
-   "from_currency": "UGX",
-   "to_currency": null
+ "dev-01026": [
+  {
+   "tool": "convert_currency",
+   "parameters": {
+    "amount": 50000,
+    "from_currency": "USD",
+    "to_currency": null
+   }
+  },
+  {
+   "tool": "set_reminder",
+   "parameters": {
+    "task": "submit my assignment",
+    "date": "today",
+    "time": "08:30"
+   }
+  },
+  {
+   "tool": "check_balance",
+   "parameters": {
+    "provider": "MoMo"
+   }
   }
- },
+ ],
  "dev-01927": [
   {
    "tool": "set_reminder",
@@ -19078,19 +19344,11 @@
    }
   },
   {
-   "tool": "get_weather",
+   "tool": "buy_airtime",
    "parameters": {
-    "location": "Bolgatanga",
-    "date": "tomorrow"
-   }
-  },
-  {
-   "tool": "send_money",
-   "parameters": {
-    "recipient": "0593268990",
+    "phone": "0593268990",
     "amount": 500,
-    "currency": null,
-    "provider": "MoMo"
+    "network": "MoMo"
    }
   }
  ]
