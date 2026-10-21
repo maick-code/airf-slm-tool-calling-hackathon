@@ -178,7 +178,7 @@ def main():
     p.add_argument("--dev", default="data/dev.jsonl")
     p.add_argument("--tools", default="data/tools.json")
     p.add_argument("--out", default="submission.json")
-    p.add_argument("--model", default="google/functiongemma-270m-it")
+    p.add_argument("--model", default=os.environ.get("MODEL_NAME", "Qwen/Qwen2.5-1.5B-Instruct"))
     p.add_argument("--adapter", default="")
     p.add_argument("--rules-only", action="store_true")
     p.add_argument("--push", action="store_true")
