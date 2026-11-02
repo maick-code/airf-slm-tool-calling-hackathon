@@ -91,6 +91,10 @@ The goal is not to build the biggest model.
 
 The goal is to build the **most accurate small model**.
 
+## T4 QLoRA experiment
+
+[`train_colab_qlora.ipynb`](train_colab_qlora.ipynb) is a separate Colab candidate for Gemma 3 1B: NF4 4-bit QLoRA, one epoch on the 15,000 official training examples only, then greedy inference and a Codabench-format ZIP. It deliberately creates no train/validation split, uses no synthetic examples, and does not report a local accuracy. It has not been evaluated on Codabench; the leaderboard score is the only benchmark result.
+
 ## Rules
 
 - Use any open-weight model with **at most 4B parameters**. Gemma 3 270M, 1B and 4B, and FunctionGemma 270M are recommended.
